@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Zona de la etiqueta Meta-->
+        <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
+        <!--Zona del titulo-->
+        <title>Principal</title>
+        <!--Zona de los recursos elazados (CSS, RSS, javascript)-->
+        <link rel="stylesheet" href="CSS/Styles.css" >
+        <!--insertar un icono a la pagina del titulo-->
+        <link rel="icon" type="imagen/x-icon" href="Image/cuadro.png">
+    </head>
+    <body bgcolor="#0000">
+        <div class="navegar">
+            <div class="contener">
+                <div>
+                    <a href="index.html"><img class="img-logo" src="Image/cuadro.png"></a>
+                </div><div>
+                    <h1>Principal</h1>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bloq-texto">
+            <div>
+                <br><h2>Tema de ejemplo</h2>
+            </div>
+            <div><h3>Subtema de ejemplo</h3></div>
+            <div class="enlace">
+                <a href="index.html">volver</a>
+            </div>
+
+            <div>
+                <!--inicion bloquede dos columnas-->
+                <div class="texto">
+                    <img class="img-texto" src="Image/ubicacion.gif">
+                    <p>
+                        Una vista actúa como filtro de las tablas subyacentes a las que se hace referencia en ella. 
+                        La consulta que define la vista puede provenir de una o de varias tablas, o bien de otras 
+                        vistas de la base de datos actual u otras bases de datos. Asimismo, es posible utilizar las 
+                        consultas distribuidas para definir vistas que utilicen datos de orígenes heterogéneos. 
+                        Esto puede resultar de utilidad, por ejemplo, si desea combinar datos de estructura 
+                        similar que proceden de distintos servidores, cada uno de los cuales almacena los datos 
+                        para una región distinta de la organización
+                    </p>
+                    <p>
+                        En este ejemplo, la vista —emp_regions_view— une una tabla espacial (clase de entidad) 
+                        a una tabla no espacial basada en la columna emp_id. La vista incluye el ObjectID, la 
+                        columna espacial (region) y el nombre de la región (rname) de la clase de entidad de 
+                        regiones junto con el nombre del empleado y el Id. de la tabla de empleados.
+                        
+                     </p>
+                </div>
+                <!--fin bloque de dos columnas-->
+
+                <p>
+                    Una <strong>vista indizada</strong> es una vista que se ha materializado. Esto significa que se ha 
+                    calculado la definición de la vista y que los datos resultantes se han almacenado como 
+                    una tabla. Se puede indizar una vista creando un índice clúster único en ella. Las vistas 
+                    indizadas pueden mejorar de forma considerable el rendimiento de algunos tipos de 
+                    consultas. Las vistas indizadas funcionan mejor para consultas que agregan muchas filas. 
+                    No son adecuadas para conjuntos de datos subyacentes que se actualizan 
+                    frecuentemente.
+                </p>                    
+                <p>                    
+                    Una <strong>vista con particiones</strong> combina datos horizontales con particiones de un conjunto de 
+                    tablas miembro en uno o más servidores. Esto hace que los datos aparezcan como si 
+                    fueran de una tabla. Una vista que combina tablas miembro en la misma instancia de 
+                    SQL Server es una vista con particiones local
+                </p>
+                <p>Las vistas pueden considerarse como tablas virtuales. Generalmente hablando, una tabla tiene 
+                    un conjunto de definiciones, y almacena datos físicamente. Una vista también tiene un conjunto 
+                    de definiciones, que se construye en la parte superior de la(s) tabla(s) u otra(s) vista(s), y no 
+                    almacena datos físicamente
+                </p>
+                <p>
+                    Una vista actúa como filtro de las tablas subyacentes a las que se hace referencia en ella. 
+                    La consulta que define la vista puede provenir de una o de varias tablas, o bien de otras 
+                    vistas de la base de datos actual u otras bases de datos. Asimismo, es posible utilizar las 
+                    consultas distribuidas para definir vistas que utilicen datos de orígenes heterogéneos. 
+                    Esto puede resultar de utilidad, por ejemplo, si desea combinar datos de estructura 
+                    similar que proceden de distintos servidores, cada uno de los cuales almacena los datos 
+                    para una región distinta de la organización.
+                </p>
+                <p>Las vistas suelen usarse para centrar, simplificar y personalizar la percepción de la base 
+                    de datos para cada usuario. Las vistas pueden emplearse como mecanismos de 
+                    seguridad, que permiten a los usuarios obtener acceso a los datos por medio de la vista, 
+                    pero no les conceden el permiso de obtener acceso directo a las tablas base 
+                    subyacentes de la vista. 
+                     Las vistas pueden utilizarse para proporcionar una interfaz compatible con versiones 
+                    anteriores con el fin de emular una tabla que existía pero cuyo esquema ha cambiado. 
+                    También pueden usarse para copiar datos entre SQL Server a fin de mejorar el 
+                    rendimiento y crear particiones de los datos.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
